@@ -8,10 +8,14 @@ import { OrbitControls } from '@react-three/drei';
 import {Model} from './Model'; /* highlight-line */
 
 const Hero = () => {
+
+
+
   return (
     <section className={`relative w-full h-screen`}>
       
       <div
+      style={{zIndex:'1'}}
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`
       }
       
@@ -32,8 +36,8 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      {/* <div style={{display:'flex', justifyContent:'flex-end',
-      alignItems: 'center', marginLeft:'80px'}}>
+      <div style={{display:'flex', justifyContent:'flex-end',
+      alignItems: 'center', marginLeft:'80px',zIndex:'9999'}}>
       <Canvas
          camera={{  fov: 30 }}
          style={{
@@ -55,7 +59,7 @@ const Hero = () => {
          <OrbitControls />
       </Canvas>
       </div>
-       */}
+      
 
       {/* <ComputersCanvas /> */}
 
