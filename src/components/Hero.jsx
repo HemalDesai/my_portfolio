@@ -32,7 +32,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <div style={{display:'flex', justifyContent:'flex-end',
+      {/* <div style={{display:'flex', justifyContent:'flex-end',
       alignItems: 'center', marginLeft:'80px'}}>
       <Canvas
          camera={{  fov: 30 }}
@@ -55,7 +55,7 @@ const Hero = () => {
          <OrbitControls />
       </Canvas>
       </div>
-      
+       */}
 
       {/* <ComputersCanvas /> */}
 
