@@ -116,6 +116,20 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Software Developer",
+    company_name: "ReallyBrief",
+    icon: tesla,
+    iconBg: "#E6DEDD",
+    date: "Jun 2023 - Present",
+    points: [
+      "Responsible for spearheading the design and development of engaging and responsive web pages.",
+      "Integrating AI functionalities, delivering innovative solutions to address complex challenges",
+      "Creating and maintaining backend components, including designing and developing APIs.",
+      "Managing databases to ensure seamless data flow and optimal system performance.",
+      "Technologies Used:- Next.js, Tailwind CSS, Node.js, MongoDB."
+    ],
+  },
+  {
     title: "React.js Developer",
     company_name: "Fiverr",
     icon: starbucks,
